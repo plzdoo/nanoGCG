@@ -1,0 +1,252 @@
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:25<01:17, 25.95s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:52<00:52, 26.04s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [01:33<00:33, 33.30s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:46<00:00, 25.04s/it]Loading checkpoint shards: 100%|██████████| 4/4 [01:46<00:00, 26.59s/it]
+We detected that you are passing `past_key_values` as a tuple and this is deprecated and will be removed in v4.43. Please use an appropriate `Cache` class (https://huggingface.co/docs/transformers/v4.41.3/en/internal/generation_utils#transformers.Cache)
+2024-08-20 15:00:17 [gcg.py:365] Initializing attack buffer of size 0...
+Asking to truncate to max_length but no maximum length is provided and the model has no predefined maximum length. Default to no truncation.
+2024-08-20 15:00:17 [gcg.py:419] Initialized attack buffer.
+  0%|          | 0/2000 [00:00<?, ?it/s]2024-08-20 15:00:20 [gcg.py:328] current prob0.9073191285133362
+2024-08-20 15:00:20 [gcg.py:91] buffer:
+loss: 3.15944766998291 | string: x x x x x x x x x x x x x x x spanish x x x x
+  0%|          | 1/2000 [00:02<1:34:05,  2.82s/it]2024-08-20 15:00:23 [gcg.py:328] current prob0.2513033449649811
+2024-08-20 15:00:23 [gcg.py:91] buffer:
+loss: 3.0095245838165283 | string: x x x x x x x x x x x x x x.In spanish x x x x
+  0%|          | 2/2000 [00:05<1:33:54,  2.82s/it]2024-08-20 15:00:26 [gcg.py:328] current prob0.17207872867584229
+2024-08-20 15:00:26 [gcg.py:91] buffer:
+loss: 2.969343900680542 | string: x x x x x x x x x x x x x x.In spanish xvx x x
+  0%|          | 3/2000 [00:08<1:33:07,  2.80s/it]2024-08-20 15:00:29 [gcg.py:328] current prob0.4142152667045593
+2024-08-20 15:00:29 [gcg.py:91] buffer:
+loss: 2.9426307678222656 | string: \\x x x x x x x x x x x x x x.In spanish xvx x x
+  0%|          | 4/2000 [00:11<1:32:54,  2.79s/it]2024-08-20 15:00:31 [gcg.py:328] current prob0.473267138004303
+2024-08-20 15:00:31 [gcg.py:91] buffer:
+loss: 2.9047348499298096 | string: \\x x x x x x x x x x x x x deterministic.In spanish xvx x x
+  0%|          | 5/2000 [00:13<1:32:38,  2.79s/it]2024-08-20 15:00:34 [gcg.py:328] current prob0.20925812423229218
+2024-08-20 15:00:34 [gcg.py:91] buffer:
+loss: 2.904895782470703 | string:  td x x x x x x x x x x x x deterministic.In spanish xvx x x
+  0%|          | 6/2000 [00:16<1:32:38,  2.79s/it]2024-08-20 15:00:37 [gcg.py:328] current prob0.1919451653957367
+2024-08-20 15:00:37 [gcg.py:91] buffer:
+loss: 2.8674705028533936 | string:  rl x x x x x x x x x x x x deterministic.In spanish xvx x x
+  0%|          | 7/2000 [00:19<1:32:34,  2.79s/it]2024-08-20 15:00:40 [gcg.py:328] current prob0.1359078288078308
+2024-08-20 15:00:40 [gcg.py:91] buffer:
+loss: 2.852944850921631 | string:  rl x x x x x x x x x x x adventurer deterministic.In spanish xvx x x
+  0%|          | 8/2000 [00:22<1:32:40,  2.79s/it]2024-08-20 15:00:43 [gcg.py:328] current prob0.2673083543777466
+2024-08-20 15:00:43 [gcg.py:91] buffer:
+loss: 2.842694044113159 | string:  rl x x x x x x x x x x x adventurer!important.In spanish xvx x x
+  0%|          | 9/2000 [00:25<1:33:35,  2.82s/it]2024-08-20 15:00:45 [gcg.py:328] current prob0.18620917201042175
+2024-08-20 15:00:45 [gcg.py:91] buffer:
+loss: 2.801717519760132 | string:  rl x x x x x x x x x x x adventurer bro.In spanish xvx x x
+  0%|          | 10/2000 [00:27<1:32:46,  2.80s/it]2024-08-20 15:00:48 [gcg.py:328] current prob0.2767970860004425
+2024-08-20 15:00:48 [gcg.py:91] buffer:
+loss: 2.7665562629699707 | string:  Tr x x x x x x x x x x x adventurer bro.In spanish xvx x x
+  1%|          | 11/2000 [00:30<1:31:44,  2.77s/it]2024-08-20 15:00:51 [gcg.py:328] current prob0.2674107551574707
+2024-08-20 15:00:51 [gcg.py:91] buffer:
+loss: 2.761484384536743 | string:  Tr x x x x x x x x x x x adventurer bro.In spanish xvx xspo
+  1%|          | 12/2000 [00:33<1:31:17,  2.76s/it]2024-08-20 15:00:54 [gcg.py:328] current prob0.3531351685523987
+2024-08-20 15:00:54 [gcg.py:91] buffer:
+loss: 2.7202770709991455 | string: (da x x x x x x x x x x x adventurer bro.In spanish xvx xspo
+  1%|          | 13/2000 [00:36<1:31:17,  2.76s/it]2024-08-20 15:00:56 [gcg.py:328] current prob0.42602255940437317
+2024-08-20 15:00:56 [gcg.py:91] buffer:
+loss: 2.654824733734131 | string: (da x x x x x x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 14/2000 [00:38<1:31:49,  2.77s/it]2024-08-20 15:00:59 [gcg.py:328] current prob0.24572251737117767
+2024-08-20 15:00:59 [gcg.py:91] buffer:
+loss: 2.6158595085144043 | string: (da xgages x x x x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 15/2000 [00:41<1:31:52,  2.78s/it]2024-08-20 15:01:02 [gcg.py:328] current prob0.25225669145584106
+2024-08-20 15:01:02 [gcg.py:91] buffer:
+loss: 2.6199069023132324 | string: (da xgages x x ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 16/2000 [00:44<1:31:49,  2.78s/it]2024-08-20 15:01:05 [gcg.py:328] current prob0.2243269979953766
+2024-08-20 15:01:05 [gcg.py:91] buffer:
+loss: 2.6134932041168213 | string: (da xgagesaxies x ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 17/2000 [00:47<1:30:32,  2.74s/it]2024-08-20 15:01:07 [gcg.py:328] current prob0.18407128751277924
+2024-08-20 15:01:07 [gcg.py:91] buffer:
+loss: 2.6029438972473145 | string: (da xgages galaxies x ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 18/2000 [00:49<1:29:55,  2.72s/it]2024-08-20 15:01:10 [gcg.py:328] current prob0.1498856395483017
+2024-08-20 15:01:10 [gcg.py:91] buffer:
+loss: 2.6032211780548096 | string: (da xgages galaxies nn ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 19/2000 [00:52<1:30:20,  2.74s/it]2024-08-20 15:01:13 [gcg.py:328] current prob0.3735259175300598
+2024-08-20 15:01:13 [gcg.py:91] buffer:
+loss: 2.5836610794067383 | string: (da seriousgages galaxies nn ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 20/2000 [00:55<1:29:30,  2.71s/it]2024-08-20 15:01:15 [gcg.py:328] current prob0.1822524517774582
+2024-08-20 15:01:15 [gcg.py:91] buffer:
+loss: 2.586463212966919 | string: (da obtgages galaxies nn ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 21/2000 [00:58<1:29:50,  2.72s/it]2024-08-20 15:01:18 [gcg.py:328] current prob0.21688710153102875
+2024-08-20 15:01:18 [gcg.py:91] buffer:
+loss: 2.5822641849517822 | string: (da obtgages galaxies::__ ))) x x x x x x adventurer bro.In spanish xvx x Sw
+  1%|          | 22/2000 [01:00<1:29:57,  2.73s/it]2024-08-20 15:01:21 [gcg.py:328] current prob0.3728368580341339
+2024-08-20 15:01:21 [gcg.py:91] buffer:
+loss: 2.589351177215576 | string: (da obtgages galaxies::__ ))) x x x "|" x x adventurer bro.In spanish xvx x Sw
+  1%|          | 23/2000 [01:03<1:29:07,  2.70s/it]2024-08-20 15:01:23 [gcg.py:328] current prob0.40378978848457336
+2024-08-20 15:01:23 [gcg.py:91] buffer:
+loss: 2.6018028259277344 | string: (da medievalgages galaxies::__ ))) x x x "|" x x adventurer bro.In spanish xvx x Sw
+  1%|          | 24/2000 [01:06<1:28:31,  2.69s/it]2024-08-20 15:01:26 [gcg.py:328] current prob0.5592246651649475
+2024-08-20 15:01:26 [gcg.py:91] buffer:
+loss: 2.595553398132324 | string: (da medievalgages crusher::__ ))) x x x "|" x x adventurer bro.In spanish xvx x Sw
+  1%|▏         | 25/2000 [01:08<1:28:23,  2.69s/it]2024-08-20 15:01:29 [gcg.py:328] current prob0.6065096259117126
+2024-08-20 15:01:29 [gcg.py:91] buffer:
+loss: 2.585423469543457 | string: (da medievalgages crusher::__ ))) x x x "|" x x adventurer bro.In spanish xvx dialect Sw
+  1%|▏         | 26/2000 [01:11<1:28:15,  2.68s/it]2024-08-20 15:01:31 [gcg.py:328] current prob0.47199639678001404
+2024-08-20 15:01:31 [gcg.py:91] buffer:
+loss: 2.556119918823242 | string: (da Indgages crusher::__ ))) x x x "|" x x adventurer bro.In spanish xvx dialect Sw
+  1%|▏         | 27/2000 [01:14<1:28:12,  2.68s/it]2024-08-20 15:01:34 [gcg.py:328] current prob0.41437259316444397
+2024-08-20 15:01:34 [gcg.py:91] buffer:
+loss: 2.5475211143493652 | string: (da Indgages crusher::__ ))) x x x "|" xxd adventurer bro.In spanish xvx dialect Sw
+  1%|▏         | 28/2000 [01:16<1:28:28,  2.69s/it]2024-08-20 15:01:37 [gcg.py:328] current prob0.4957827627658844
+2024-08-20 15:01:37 [gcg.py:91] buffer:
+loss: 2.5372273921966553 | string: (da Indgages Rocket::__ ))) x x x "|" xxd adventurer bro.In spanish xvx dialect Sw
+  1%|▏         | 29/2000 [01:19<1:27:20,  2.66s/it]2024-08-20 15:01:39 [gcg.py:328] current prob0.5852399468421936
+2024-08-20 15:01:39 [gcg.py:91] buffer:
+loss: 2.5201480388641357 | string: (de Indgages Rocket::__ ))) x x x "|" xxd adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 30/2000 [01:21<1:26:17,  2.63s/it]2024-08-20 15:01:42 [gcg.py:328] current prob0.4339231550693512
+2024-08-20 15:01:42 [gcg.py:91] buffer:
+loss: 2.5086820125579834 | string: (de Indgages Rocket::__ ))) x x x linux xxd adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 31/2000 [01:24<1:26:14,  2.63s/it]2024-08-20 15:01:45 [gcg.py:328] current prob0.25766873359680176
+2024-08-20 15:01:45 [gcg.py:91] buffer:
+loss: 2.469285011291504 | string: (de Indgages Rocket::__ ))) Emacs x x linux xxd adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 32/2000 [01:27<1:25:39,  2.61s/it]2024-08-20 15:01:47 [gcg.py:328] current prob0.35090845823287964
+2024-08-20 15:01:47 [gcg.py:91] buffer:
+loss: 2.463941812515259 | string: (de installationsgages Rocket::__ ))) Emacs x x linux xxd adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 33/2000 [01:29<1:25:55,  2.62s/it]2024-08-20 15:01:50 [gcg.py:328] current prob0.347718209028244
+2024-08-20 15:01:50 [gcg.py:91] buffer:
+loss: 2.4460952281951904 | string: (de resgages Rocket::__ ))) Emacs x x linux xxd adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 34/2000 [01:32<1:25:30,  2.61s/it]2024-08-20 15:01:52 [gcg.py:328] current prob0.2586600184440613
+2024-08-20 15:01:52 [gcg.py:91] buffer:
+loss: 2.428354024887085 | string: (de resgages Rocket::__ ))) Emacs x x linux x-pt adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 35/2000 [01:35<1:25:20,  2.61s/it]2024-08-20 15:01:55 [gcg.py:328] current prob0.24870947003364563
+2024-08-20 15:01:55 [gcg.py:91] buffer:
+loss: 2.4300618171691895 | string: (de resgages Rocket::__ ))) Emacs x x linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 36/2000 [01:37<1:26:03,  2.63s/it]2024-08-20 15:01:58 [gcg.py:328] current prob0.2982218861579895
+2024-08-20 15:01:58 [gcg.py:91] buffer:
+loss: 2.419762134552002 | string: (de resgages Rocket::__ ))) Emacs x$\\ linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 37/2000 [01:40<1:26:29,  2.64s/it]2024-08-20 15:02:00 [gcg.py:328] current prob0.21562513709068298
+2024-08-20 15:02:00 [gcg.py:91] buffer:
+loss: 2.4288785457611084 | string: (de resgages Rocket::__ ))) Emacs x soph linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 38/2000 [01:43<1:27:00,  2.66s/it]2024-08-20 15:02:03 [gcg.py:328] current prob0.1714366376399994
+2024-08-20 15:02:03 [gcg.py:91] buffer:
+loss: 2.418041229248047 | string: (de resgages Rocket::__ ))) Emacs x && linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 39/2000 [01:45<1:27:00,  2.66s/it]2024-08-20 15:02:06 [gcg.py:328] current prob0.13366200029850006
+2024-08-20 15:02:06 [gcg.py:91] buffer:
+loss: 2.408064842224121 | string: (de gruesgages Rocket::__ ))) Emacs x && linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 40/2000 [01:48<1:28:17,  2.70s/it]2024-08-20 15:02:09 [gcg.py:328] current prob0.2188965082168579
+2024-08-20 15:02:09 [gcg.py:91] buffer:
+loss: 2.4011828899383545 | string: (de gruesgages Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 41/2000 [01:51<1:28:22,  2.71s/it]2024-08-20 15:02:11 [gcg.py:328] current prob0.19605015218257904
+2024-08-20 15:02:11 [gcg.py:91] buffer:
+loss: 2.379239797592163 | string: (Un gruesgages Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 42/2000 [01:53<1:26:56,  2.66s/it]2024-08-20 15:02:14 [gcg.py:328] current prob0.20493881404399872
+2024-08-20 15:02:14 [gcg.py:91] buffer:
+loss: 2.3815994262695312 | string: (Un homicgages Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 43/2000 [01:56<1:26:47,  2.66s/it]2024-08-20 15:02:16 [gcg.py:328] current prob0.20618413388729095
+2024-08-20 15:02:16 [gcg.py:91] buffer:
+loss: 2.370359420776367 | string: (Un lifesgages Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 44/2000 [01:59<1:25:59,  2.64s/it]2024-08-20 15:02:19 [gcg.py:328] current prob0.1919442117214203
+2024-08-20 15:02:19 [gcg.py:91] buffer:
+loss: 2.3787639141082764 | string: (Un lifesffects Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 45/2000 [02:01<1:26:53,  2.67s/it]2024-08-20 15:02:22 [gcg.py:328] current prob0.22055533528327942
+2024-08-20 15:02:22 [gcg.py:91] buffer:
+loss: 2.3887791633605957 | string: (Un lifesmn Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 46/2000 [02:04<1:27:49,  2.70s/it]2024-08-20 15:02:25 [gcg.py:328] current prob0.2010587900876999
+2024-08-20 15:02:25 [gcg.py:91] buffer:
+loss: 2.3922266960144043 | string: (Un lifes densely Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 47/2000 [02:07<1:27:26,  2.69s/it]2024-08-20 15:02:27 [gcg.py:328] current prob0.20555542409420013
+2024-08-20 15:02:27 [gcg.py:91] buffer:
+loss: 2.3850460052490234 | string: (Un lifesceso Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 48/2000 [02:09<1:27:44,  2.70s/it]2024-08-20 15:02:30 [gcg.py:328] current prob0.19829152524471283
+2024-08-20 15:02:30 [gcg.py:91] buffer:
+loss: 2.380765199661255 | string: (Un lifes costing Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▏         | 49/2000 [02:12<1:28:13,  2.71s/it]2024-08-20 15:02:33 [gcg.py:328] current prob0.2750847637653351
+2024-08-20 15:02:33 [gcg.py:91] buffer:
+loss: 2.387261152267456 | string: (Un lifes costing Rocket::__ ))) Emacs x propia linux xpto adventurer bro.In spanish xvx dialect Sw
+  2%|▎         | 50/2000 [02:15<1:27:28,  2.69s/it]2024-08-20 15:02:35 [gcg.py:328] current prob0.2105148434638977
+2024-08-20 15:02:35 [gcg.py:91] buffer:
+loss: 2.3819875717163086 | string: (Un lifes costing Rocket::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 51/2000 [02:18<1:27:50,  2.70s/it]2024-08-20 15:02:38 [gcg.py:328] current prob0.169825479388237
+2024-08-20 15:02:38 [gcg.py:91] buffer:
+loss: 2.3923346996307373 | string: (Un lifes costing Beth::__ ))) Emacs x Virgin linux xpto adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 52/2000 [02:20<1:28:17,  2.72s/it]2024-08-20 15:02:41 [gcg.py:328] current prob0.2289314866065979
+2024-08-20 15:02:41 [gcg.py:91] buffer:
+loss: 2.407515525817871 | string: (Un lifes costing Beth::__ ))) Emacs x nuestra linux xpto adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 53/2000 [02:23<1:27:30,  2.70s/it]2024-08-20 15:02:44 [gcg.py:328] current prob0.17318709194660187
+2024-08-20 15:02:44 [gcg.py:91] buffer:
+loss: 2.3626551628112793 | string: (Un blender costing Beth::__ ))) Emacs x nuestra linux xpto adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 54/2000 [02:26<1:28:00,  2.71s/it]2024-08-20 15:02:46 [gcg.py:328] current prob0.1942269206047058
+2024-08-20 15:02:46 [gcg.py:91] buffer:
+loss: 2.3460588455200195 | string: (Un blender accepting Beth::__ ))) Emacs x nuestra linux xpto adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 55/2000 [02:28<1:28:17,  2.72s/it]2024-08-20 15:02:49 [gcg.py:328] current prob0.21718059480190277
+2024-08-20 15:02:49 [gcg.py:91] buffer:
+loss: 2.345325231552124 | string: (Un blender accepting Beth::__ ))) Emacs x nuestra linux xhab adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 56/2000 [02:31<1:28:03,  2.72s/it]2024-08-20 15:02:52 [gcg.py:328] current prob0.3068431615829468
+2024-08-20 15:02:52 [gcg.py:91] buffer:
+loss: 2.3616771697998047 | string: (Un blender accepting Beth::__ ))) Emacs x nuestra linux xandle adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 57/2000 [02:34<1:28:38,  2.74s/it]2024-08-20 15:02:54 [gcg.py:328] current prob0.25430312752723694
+2024-08-20 15:02:54 [gcg.py:91] buffer:
+loss: 2.3506205081939697 | string: (Un blender accepting Beth::__ ))) Emacs x nuestra linux xaley adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 58/2000 [02:37<1:27:52,  2.72s/it]2024-08-20 15:02:57 [gcg.py:328] current prob0.16148656606674194
+2024-08-20 15:02:57 [gcg.py:91] buffer:
+loss: 2.3232409954071045 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux xaley adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 59/2000 [02:39<1:27:55,  2.72s/it]2024-08-20 15:03:00 [gcg.py:328] current prob0.1277274638414383
+2024-08-20 15:03:00 [gcg.py:91] buffer:
+loss: 2.3206841945648193 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x crying adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 60/2000 [02:42<1:28:37,  2.74s/it]2024-08-20 15:03:03 [gcg.py:328] current prob0.13311702013015747
+2024-08-20 15:03:03 [gcg.py:91] buffer:
+loss: 2.304095983505249 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x Pad adventurer bro.In spanish xvx dialect Sw
+  3%|▎         | 61/2000 [02:45<1:28:28,  2.74s/it]2024-08-20 15:03:05 [gcg.py:328] current prob0.1251443773508072
+2024-08-20 15:03:05 [gcg.py:91] buffer:
+loss: 2.3025639057159424 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x Pad Aero bro.In spanish xvx dialect Sw
+  3%|▎         | 62/2000 [02:48<1:28:41,  2.75s/it]2024-08-20 15:03:08 [gcg.py:328] current prob0.11690155416727066
+2024-08-20 15:03:08 [gcg.py:91] buffer:
+loss: 2.250062942504883 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x Pad Aero bro.In spanish x Lean dialect Sw
+  3%|▎         | 63/2000 [02:50<1:28:53,  2.75s/it]2024-08-20 15:03:11 [gcg.py:328] current prob0.05423281714320183
+2024-08-20 15:03:11 [gcg.py:91] buffer:
+loss: 2.2279555797576904 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x Pad Aero bro.In spanish x Lean dialect.SE
+  3%|▎         | 64/2000 [02:53<1:28:46,  2.75s/it]2024-08-20 15:03:14 [gcg.py:328] current prob0.057286184281110764
+2024-08-20 15:03:14 [gcg.py:91] buffer:
+loss: 2.21230411529541 | string: (Un blender showing Beth::__ ))) Emacs x nuestra linux x Pad minimal bro.In spanish x Lean dialect.SE
+  3%|▎         | 65/2000 [02:56<1:28:17,  2.74s/it]2024-08-20 15:03:16 [gcg.py:328] current prob0.12332490086555481
+2024-08-20 15:03:16 [gcg.py:91] buffer:
+loss: 2.217041492462158 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad minimal bro.In spanish x Lean dialect.SE
+  3%|▎         | 66/2000 [02:59<1:27:58,  2.73s/it]2024-08-20 15:03:19 [gcg.py:328] current prob0.1811060756444931
+2024-08-20 15:03:19 [gcg.py:91] buffer:
+loss: 2.2161309719085693 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad_SMALL bro.In spanish x Lean dialect.SE
+  3%|▎         | 67/2000 [03:01<1:27:52,  2.73s/it]2024-08-20 15:03:22 [gcg.py:328] current prob0.11721986532211304
+2024-08-20 15:03:22 [gcg.py:91] buffer:
+loss: 2.2016985416412354 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad_SMALL bro.In spanish within Lean dialect.SE
+  3%|▎         | 68/2000 [03:04<1:29:12,  2.77s/it]2024-08-20 15:03:25 [gcg.py:328] current prob0.0958603024482727
+2024-08-20 15:03:25 [gcg.py:91] buffer:
+loss: 2.1942155361175537 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x PadCelebr bro.In spanish within Lean dialect.SE
+  3%|▎         | 69/2000 [03:07<1:30:17,  2.81s/it]2024-08-20 15:03:28 [gcg.py:328] current prob0.08254250138998032
+2024-08-20 15:03:28 [gcg.py:91] buffer:
+loss: 2.1954221725463867 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x PadAndroid bro.In spanish within Lean dialect.SE
+  4%|▎         | 70/2000 [03:10<1:29:48,  2.79s/it]2024-08-20 15:03:31 [gcg.py:328] current prob0.08057145774364471
+2024-08-20 15:03:31 [gcg.py:91] buffer:
+loss: 2.1920154094696045 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad_ANDROID bro.In spanish within Lean dialect.SE
+  4%|▎         | 71/2000 [03:13<1:30:25,  2.81s/it]2024-08-20 15:03:33 [gcg.py:328] current prob0.06062456965446472
+2024-08-20 15:03:33 [gcg.py:91] buffer:
+loss: 2.1962881088256836 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad Middle bro.In spanish within Lean dialect.SE
+  4%|▎         | 72/2000 [03:15<1:30:30,  2.82s/it]2024-08-20 15:03:36 [gcg.py:328] current prob0.1091391071677208
+2024-08-20 15:03:36 [gcg.py:91] buffer:
+loss: 2.2019028663635254 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x PadPri bro.In spanish within Lean dialect.SE
+  4%|▎         | 73/2000 [03:18<1:30:25,  2.82s/it]2024-08-20 15:03:39 [gcg.py:328] current prob0.14514794945716858
+2024-08-20 15:03:39 [gcg.py:91] buffer:
+loss: 2.191215991973877 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x PadPri negro.In spanish within Lean dialect.SE
+  4%|▎         | 74/2000 [03:21<1:30:19,  2.81s/it]2024-08-20 15:03:42 [gcg.py:328] current prob0.12430030107498169
+2024-08-20 15:03:42 [gcg.py:91] buffer:
+loss: 2.186917543411255 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad Mickey negro.In spanish within Lean dialect.SE
+  4%|▍         | 75/2000 [03:24<1:30:17,  2.81s/it]2024-08-20 15:03:45 [gcg.py:328] current prob0.06818898022174835
+2024-08-20 15:03:45 [gcg.py:91] buffer:
+loss: 2.1581554412841797 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x Pad OnePlus negro.In spanish within Lean dialect.SE
+  4%|▍         | 76/2000 [03:27<1:31:05,  2.84s/it]2024-08-20 15:03:47 [gcg.py:328] current prob0.06966038048267365
+2024-08-20 15:03:47 [gcg.py:91] buffer:
+loss: 2.164276361465454 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x lg OnePlus negro.In spanish within Lean dialect.SE
+  4%|▍         | 77/2000 [03:30<1:30:46,  2.83s/it]2024-08-20 15:03:50 [gcg.py:328] current prob0.06165778264403343
+2024-08-20 15:03:50 [gcg.py:91] buffer:
+loss: 2.1647839546203613 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x dle OnePlus negro.In spanish within Lean dialect.SE
+  4%|▍         | 78/2000 [03:33<1:31:26,  2.85s/it]2024-08-20 15:03:53 [gcg.py:328] current prob0.1070290207862854
+2024-08-20 15:03:53 [gcg.py:91] buffer:
+loss: 2.157400369644165 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x del OnePlus negro.In spanish within Lean dialect.SE
+  4%|▍         | 79/2000 [03:35<1:30:46,  2.84s/it]2024-08-20 15:03:56 [gcg.py:328] current prob0.16884087026119232
+2024-08-20 15:03:56 [gcg.py:91] buffer:
+loss: 2.166156768798828 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x del OnePlus negro.In spanish.In Lean dialect.SE
+  4%|▍         | 80/2000 [03:38<1:30:23,  2.82s/it]2024-08-20 15:03:59 [gcg.py:328] current prob0.18587686121463776
+2024-08-20 15:03:59 [gcg.py:91] buffer:
+loss: 2.1796579360961914 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x del joystick negro.In spanish.In Lean dialect.SE
+  4%|▍         | 81/2000 [03:41<1:30:00,  2.81s/it]2024-08-20 15:04:02 [gcg.py:328] current prob0.19298896193504333
+2024-08-20 15:04:02 [gcg.py:91] buffer:
+loss: 2.1583757400512695 | string: (Un blender showing Impro::__ ))) Emacs x nuestra linux x del Hercules negro.In spanish.In Lean dialect.SE
+  4%|▍         | 82/2000 [03:44<1:29:39,  2.80s/it]slurmstepd: error: *** JOB 6548149 ON gilbreth-i000 CANCELLED AT 2024-08-20T15:04:02 ***
